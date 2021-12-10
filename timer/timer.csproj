@@ -46,6 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="countdownxmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="countdownxmas.Designer.cs">
+      <DependentUpon>countdownxmas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentpicker xmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>studentpicker xmas.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dice xmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dice xmas.Designer.cs">
+      <DependentUpon>dice xmas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu xmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu xmas.Designer.cs">
+      <DependentUpon>menu xmas.cs</DependentUpon>
+    </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +97,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="countdownxmas.resx">
+      <DependentUpon>countdownxmas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu xmas.resx">
+      <DependentUpon>menu xmas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +125,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="studentpicker xmas.resx">
+      <DependentUpon>studentpicker xmas.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -112,6 +146,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\LogoMakr-5Xl2qk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x mas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

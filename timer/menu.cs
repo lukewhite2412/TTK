@@ -52,5 +52,17 @@ namespace timer
         {
 
         }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.Hour.ToString("00")+":" + DateTime.Now.Minute.ToString("00");
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 form = new Form2();
+            form.Show();
+        }
     }
 }
