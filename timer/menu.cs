@@ -29,24 +29,11 @@ namespace timer
 
        
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-            countdown form = new countdown();
-            form.Show();
-        }
+     
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            dice form = new dice();
-            form.Show();
+       
 
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form4 form = new Form4();
-            form.Show();
-        }
+    
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -59,9 +46,16 @@ namespace timer
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+     
+
+        private void label1_Click(object sender, EventArgs e)
         {
-            Form2 form = new Form2();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           Form1 form = new Form1();
             form.Show();
         }
     }

@@ -71,18 +71,21 @@ namespace timer
         {
             countdown form = new countdown();
             form.Show();
+            this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            menu form = new menu();
+            Form1 form = new Form1();
             form.Show();
+            this.Close();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             dice form = new dice();
             form.Show();
+            this.Close();
         }
     }
 }

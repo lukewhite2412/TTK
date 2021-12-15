@@ -50,20 +50,23 @@ namespace timer
 
         private void button5_Click(object sender, EventArgs e)
         {
-            menu form = new menu();
+            Form1 form = new Form1();
             form.Show();
+            this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             Form4 form = new Form4();
             form.Show();
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             dice form = new dice();
             form.Show();
+            this.Close();
         }
     }
 }
